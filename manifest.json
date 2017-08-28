@@ -1,7 +1,7 @@
 {
 "name": "Little Ruby Reminders",
 "description": "Little Ruby Reminders",
-"version": "1.0.0",
+"version": "1.2.0",
 "manifest_version": 2,
 "icons": {
 "128": "RR.png"
