@@ -10,7 +10,7 @@ var myarray = [
 
 "<h3>Greater than and less than</h3><li>5 > 3 == true</li><li>10 < 7 == false</li><li>Handy tip: think of 'less than' as pointing left < </li><br>",
 
-"<h3>Print text using puts</h3><p>puts \"Hello World\"<p>puts will place each item on a new line</p><p>puts [[1, 2], [3,4]] will return as: <p>1</p><p>2</p><p>3</p><p>4</p><p>You can also use print, which will return each item on the same line:</p><p>print [[1, 2], [3, 4]] will return as:</p><p>[[1, 2], [3, 4]</p><br>",
+"<h3>Print text using puts</h3><p>puts \"Hello World\"<p>puts will place each item on a new line</p><p>puts [[1, 2], [3, 4]] will return as: <p>1</p><p>2</p><p>3</p><p>4</p><p>You can also use print, which will return each item on the same line:</p><p>print [[1, 2], [3, 4]] will return as:</p><p>[[1, 2], [3, 4]</p><br>",
 
 "<h3>You can use hashtags to add comments to explain your code:</h3><p># adds two numbers together</p><p>10 + 12</p><p># asks users for their input and stores it in a variable called 'age'</p><p>age = gets.chomp<p>If you want to comment out a large portion of code, place =begin in a line above it and =end below it.<br>",
 
@@ -32,7 +32,9 @@ var myarray = [
 
 "<h3>while loops execute a block of code as long as a specific condition is met. Here's a while loop in action:</h3><p>i = 0</p><p>while num1 < 5 do</p><p>puts i</p><p>i += 1</p><p>end</p><p>We create a variable, which in this instance is 'i' but could be anything: 'variable', 'banana', 'foobar' etc, and we're telling the computer to run the code - to continue printing our variable - as long as it is less than five. We then use our code to add a 1 to our variable incrementally. We use += to show incremental addition, which is coding shorthand for i = i + 1. We then show the result.</p><br>",
 
-"<h3>until loops execute a block of code as long as a specific condition is met. Here's an until loop in action:</h3><p>i = 0</p><p>until num1 = 3 do</p><p>puts i</p><p>i += 1</p><p>end</p><p>We create a variable, which in this instance is 'i' but could be anything: 'variable', 'banana', 'foobar' etc, and we're telling the computer to run the code - to continue printing our variable - until it equals five. We then use our code to add a 1 to our variable incrementally. We use += to show incremental addition, which is coding shorthand for i = i + 1. We then show the result.</p><br>"
+"<h3>until loops execute a block of code as long as a specific condition is met. Here's an until loop in action:</h3><p>i = 0</p><p>until i = 3 do</p><p>puts i</p><p>i += 1</p><p>end</p><p>We create a variable, which in this instance is 'i' but could be anything: 'variable', 'banana', 'foobar' etc, and we're telling the computer to run the code - to continue printing our variable - until it equals five. We then use our code to add a 1 to our variable incrementally. We use += to show incremental addition, which is coding shorthand for i = i + 1. We then show the result.</p><br>",
+
+"<h3>If/else statement isn't useful if you have a large numbers of conditions. That's where the switch statement comes in handy:</h3><p>print: \"Enter your grade: \"</p><p>age = gets.chomp # this asks for a user input and stores it as a variable</p><p>case grade</p><p>when \"A\"</p><p>puts \"Well done!\"</p><p>when \"B\"</p><p>puts \"Pretty good!\"</p><p>when \"C\"</p><p>puts \"Room for improvement!\"</p><p>when \"D\"</p><p>puts \"That's a fail!\"</p><p>else</p><p>puts \"That's not one of our grades!\"</p><br>"
 
 ];
 
@@ -48,4 +50,3 @@ function myFunction() {
   document.getElementById("container").innerHTML = x;
 
 };
-
