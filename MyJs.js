@@ -24,7 +24,7 @@ var myarray = [
 
 "<h3>If you want to prompt the user for input, you would use:</h3><p>gets.chomp</p><p>But what if we want to use the information that is submitted? We can store it in a variable:</p><p>puts \"What is your name?\"</p><p>input = gets.chomp</p><p># the user will be prompted to submit information</p><p>puts \"Hello, #{input}, thanks for giving us your name!\"</p><br>",
 
-"<h3>An array is a way of storing objects in Ruby. It's coded like so:</h3><p>my_array = [\"James\", 4, \"It can contain really long strings, or numbers, or, well, just about anything\"]</p><p>You're actually seeing an array in action with this extension. All the text that you see in these tips is stored in an array, and javascript is telling the array to randomly display a tip each time you reload, open a new tab, or click 'next tip'!</p><br>",
+"<h3>An array is a way of storing objects in Ruby. It's coded like so:</h3><p>my_array = [\"James\", 4, \"It can contain really long strings, or numbers, or, well, just about anything\"]</p><p>You're actually seeing an array in action with this extension. All the text that you see in these tips is stored in an array, and javascript is telling the array to randomly display a tip each time you reload, open a new tab, or click 'next tip'!</p><p>You can see the source code for that array by <a href=\"https://github.com/ShetlandJ/learnruby/blob/master/MyJs.js\" target=\"_blank\">clicking here!</a></p><br>",
 
 "<h3>Multi-dimensional arrays are arrays that contain other arrays!</h3><p>my_multi_array = [[1, 2, 3], [4, 5], [\"John\", 7, 163], [[40, 50], [66, 77]]]</p><br>",
 
