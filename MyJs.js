@@ -39,8 +39,7 @@ var myarray = [
 ];
 
 document.addEventListener("DOMContentLoaded", function(event) {
-    var x = myarray[Math.floor(Math.random() * myarray.length)];
-      document.getElementById("container").innerHTML = x;
+    myFunction();
   });
 
 
